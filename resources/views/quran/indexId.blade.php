@@ -50,7 +50,7 @@
                     <br>
                     @foreach ($response->recitations as $audio)
                         
-                    <p>Mishari Rashid</p>
+                    <p>{{$audio->name}}</p>
                     <audio src="{{ $audio->audio_url }}" controls></audio>
                     
                 </figure>
